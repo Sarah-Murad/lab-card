@@ -98,7 +98,8 @@ font-family: Roboto, Arial, Helvetica;
 	background-color: rgba(245, 42, 0, 0.1);
 }
 .button {
-	font-family: Roboto;
+	font-size: .8em;
+	display: inline-block;
 	background-color: #2368ff;
 	border: .1em solid darkslategray;
 	color: white;
