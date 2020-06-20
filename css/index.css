@@ -1,33 +1,110 @@
+/* Author: Sarah Murad
+Class: Information Architecture 2
+Professor: Rocco Panacci
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
 
-:root {
-
-}
-
 body {
-	/* Default properties */
+font-family: Roboto, Arial, Helvetica;
 }
 
 .property {
-	background-color: lightgreen;
-	width: 20em;
-	padding: 2em;
+	position: relative;
+	border-radius: 1em;
+	border: .05em solid black;
+	position: fixed;
+	background-color: lightgoldenrodyellow;
+	max-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
+/* Section 1 */
+
+.a{
+	border-bottom: .05em solid grey;
+}
+
+.houseImage{
+	border-radius: 1em 1em 0em 0em;
+	width: 20em;
+	height: 15em;
+}
+
+.money{
+	padding-left: .3em;
+	font-size: 2em;
+}
+.address{
+	padding: .7em .7em 1em .7em;
+}
+.headline{
+	color:darkslategrey;
+	padding: .7em;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+/* Section 2 */
+
+.b {
+	border-bottom: .05em solid grey;
+	background-color: rgba(0, 119, 255, 0.1);
+
+}
 .howmany {
-	/* color: red; */
 	font-weight: 700;
 }
+.icon{
+	margin: .2em .6em;
+	vertical-align: middle;
+	width: 1.8em;
+	height: 1.8em;
+
+}
 .rooms {
+	margin:0;
 	list-style-type: none;
+	padding: 1em 1em 1em .2em;
+
+
 }
 
-.a {
-	/* background-color: blue; */
-}
-.b {
-	/* background-color: red; */
-}
+/* Section 3 */
+
 .c {
-	/* background-color: gold; */
+	position: relative;
+	padding: 0.7em .7em .9em .7em;
+	background-color: rgba(245, 42, 0, 0.1);
 }
+.headline2{
+	color:darkslategrey;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding:0.1em 0em .5em 0;
+}
+.contactName{
+	font-weight: 900;
+	padding: 0em 0em 0.2em 0em;
+}
+
+/* Section 4 */
+
+.d{
+	direction: rtl;
+	border-radius: 0em 0em 1em 1em;
+	background-color: rgba(245, 42, 0, 0.1);
+}
+.button {
+	font-family: Roboto;
+	background-color: #2368ff;
+	border: .1em solid darkslategray;
+	color: white;
+	padding: 0.6em 1em;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.5em;
+	margin: 0em 1em 1em 1em;
+  }
